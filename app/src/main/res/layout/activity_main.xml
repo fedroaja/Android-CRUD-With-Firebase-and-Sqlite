@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_1"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Mahasiswaque"
+        android:textSize="40dp"
+        android:textColor="#fff"
+        android:layout_centerHorizontal="true"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/usernameArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judul"
+        android:paddingTop="100dp"
+        app:hintTextColor="#fff"
+        android:theme="@style/style"
+        android:layout_marginTop="15dp">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etUsername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:hint="Username"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:inputType="text"
+            android:maxLines="1" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/passArea"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/usernameArea"
+        app:passwordToggleEnabled="true"
+        app:hintTextColor="#fff"
+        app:passwordToggleTint="#fff"
+        android:theme="@style/style"
+        android:layout_marginTop="15dp">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/etPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:layout_marginLeft="30dp"
+            android:hint="Password"
+            android:textColorHint="#fff"
+            android:textColor="#fff"
+            android:inputType="textPassword"
+            android:maxLines="1" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_below="@+id/passArea"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:background="#A9275DE7"
+        android:text="L O G I N"
+        android:textColor="#fff"
+        android:textSize="20dp" />
+
+
+
+
+
+</RelativeLayout>
+
+

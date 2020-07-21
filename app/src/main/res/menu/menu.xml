@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/shortingNIM"
+        android:orderInCategory="100"
+        android:title="Shorting By NIM"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/NIMasc"
+                android:title="Ascending"/>
+            <item
+                android:id="@+id/NIMdesc"
+                android:title="Descending"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/shortingNama"
+        android:orderInCategory="200"
+        android:title="Shorting By Name"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/NAMAasc"
+                android:title="Ascending"/>
+            <item
+                android:id="@+id/NAMAdesc"
+                android:title="Descending"/>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/Aboutme"
+        android:orderInCategory="300"
+        android:title="About Me"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/logout"
+        android:orderInCategory="400"
+        android:title="Log Out"
+        app:showAsAction="never" />
+</menu>

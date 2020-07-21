@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:background="#F7F7F7">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/profile_image"
+        android:drawingCacheQuality="high"
+        android:src="@drawable/default_image"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM        :"
+        android:id="@+id/NimTittle"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/profile_image"
+        android:layout_toEndOf="@+id/profile_image"
+        android:layout_marginLeft="15dp"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NIM"
+        android:id="@+id/displayNIM"
+        android:layout_marginTop="15dp"
+        android:layout_toRightOf="@+id/NimTittle"
+        android:layout_toEndOf="@+id/NimTittle"
+        android:layout_marginLeft="10dp"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="NAMA    :"
+        android:id="@+id/NamaTittle"
+        android:layout_toRightOf="@+id/profile_image"
+        android:layout_toEndOf="@+id/profile_image"
+        android:layout_below="@+id/NimTittle"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:id="@+id/displayNAMA"
+        android:layout_toRightOf="@+id/NamaTittle"
+        android:layout_toEndOf="@+id/NamaTittle"
+        android:layout_below="@+id/displayNIM"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#000"
+        android:textSize="18sp"/>
+
+
+
+
+
+</RelativeLayout>

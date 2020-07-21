@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "554971507866",
+    "firebase_url": "https://uas-soal01.firebaseio.com",
+    "project_id": "uas-soal01",
+    "storage_bucket": "uas-soal01.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:554971507866:android:a037f8644b51c0a3538323",
+        "android_client_info": {
+          "package_name": "umn.ac.id.uas2020_mobile_cl_00000021661_fedro_soal01"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "554971507866-1c7lrlsqmpqf0p5im1ethqnsd1sfft1o.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "umn.ac.id.uas2020_mobile_cl_00000021661_fedro_soal01",
+            "certificate_hash": "50338da6bbc16130a7ea90f91a7fe02bbd410937"
+          }
+        },
+        {
+          "client_id": "554971507866-2bgflu64n1p831bh1r60bgd3l81o2mu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-GhV6mrzoAifaxcS-O9gz9dkvIXD6g48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "554971507866-2bgflu64n1p831bh1r60bgd3l81o2mu8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

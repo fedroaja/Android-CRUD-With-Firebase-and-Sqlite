@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_1"
+    android:padding="16dp"
+    tools:context=".HalamanProfile"
+    android:id="@+id/profile_halaman">
+
+    <Switch
+        android:id="@+id/swithcMode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profile_image"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/profile"/>
+
+    <ScrollView
+        android:id="@+id/svAdd"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/profile_image"
+        android:layout_centerHorizontal="true">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tvNAMA"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FEDRO"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/tvNIM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/tvNAMA"
+                android:text="00000021661"
+                android:textSize="18dp"
+                android:textColor="#fff"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/tvPRODI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="INFORMATIKA"
+                android:textSize="18dp"
+                android:layout_below="@+id/tvNIM"
+                android:textColor="#fff"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"/>
+
+
+            <TextView
+                android:id="@+id/tvANGKATAN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2017"
+                android:textSize="18dp"
+                android:layout_below="@+id/tvPRODI"
+                android:textColor="#fff"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"/>
+
+
+            <TextView
+                android:id="@+id/tvBIOGRAFI"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KELAS MOBILE - CL"
+                android:textSize="18dp"
+                android:layout_below="@+id/tvANGKATAN"
+                android:textColor="#fff"
+                android:layout_margin="10dp"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:id="@+id/tvRefrensi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Refrensi"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/tvBIOGRAFI"
+                android:textColor="#fff"
+                android:layout_marginTop="50dp"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentStart="true"/>
+            <TextView
+                android:id="@+id/tvRefrensi1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="https://youtu.be/LjBD7iGRvS4"
+                android:textSize="18dp"
+                android:layout_below="@+id/tvRefrensi"
+                android:textColor="#fff"
+                android:layout_margin="10dp"
+                android:layout_alignParentStart="true"/>
+            <TextView
+                android:id="@+id/tvRefrensi2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="https://youtu.be/PmqYd-AdmC0"
+                android:textSize="18dp"
+                android:layout_below="@+id/tvRefrensi1"
+                android:textColor="#fff"
+                android:layout_margin="10dp"
+                android:layout_alignParentStart="true"/>
+            <TextView
+                android:id="@+id/tvRefrensi3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="https://stackoverflow.com/questions/33315353/update-specific-values-using-firebase-for-android"
+                android:textSize="18dp"
+                android:layout_below="@+id/tvRefrensi2"
+                android:textColor="#fff"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentStart="true"/>
+            <TextView
+                android:id="@+id/tvRefrensi4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="https://stackoverflow.com/questions/27187725/retrieving-specific-data-from-firebase-android"
+                android:textSize="18dp"
+                android:layout_below="@+id/tvRefrensi3"
+                android:textColor="#fff"
+                android:layout_margin="10dp"
+                android:layout_alignParentStart="true"/>
+
+            <TextView
+                android:id="@+id/tvKomentar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Komentar"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:layout_below="@+id/tvRefrensi4"
+                android:textColor="#fff"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_alignParentStart="true"/>
+            <TextView
+                android:id="@+id/tvisiKomentar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Kalau bisa lebih di perjelas lagi dalam memberikan materi atau pun tugas agar bisa lebih paham."
+                android:textSize="18dp"
+                android:layout_below="@+id/tvKomentar"
+                android:textColor="#fff"
+                android:layout_margin="10dp"
+                android:layout_alignParentStart="true"/>
+
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
